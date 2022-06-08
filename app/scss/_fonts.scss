@@ -1,7 +1,39 @@
 @font-face {
-  font-family: 'Inter-Bold';
+  font-family: 'OpenSans-Bold';
   font-weight: 700;
   font-style: normal;
-  src: local('Inter-Bold'), url('..//fonts/Inter-Bold.woff2') format('woff2'), url('..//fonts/Inter-Bold.woff') format('woff');
+  src: local('OpenSans-Bold'), url('..//fonts/OpenSans-Bold.woff2') format('woff2'), url('..//fonts/OpenSans-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('OpenSans-SemiBold'), url('..//fonts/OpenSans-SemiBold.woff2') format('woff2'), url('..//fonts/OpenSans-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('OpenSans-Regular'), url('..//fonts/OpenSans-Regular.woff2') format('woff2'), url('..//fonts/OpenSans-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Raleway-Medium'), url('..//fonts/Raleway-Medium.woff2') format('woff2'), url('..//fonts/Raleway-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Raleway-Regular'), url('..//fonts/Raleway-Regular.woff2') format('woff2'), url('..//fonts/Raleway-Regular.woff') format('woff');
   font-display: swap;
 }

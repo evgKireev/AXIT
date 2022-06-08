@@ -3,3 +3,15 @@ body {
   height: 100%;
   scroll-behavior: smooth;
 }
+
+body {
+  @extend%Raleway-400;
+  font-size: 18px;
+  color: $default;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
