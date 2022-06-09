@@ -1,30 +1,51 @@
-%OpenSans-700 {
-  font-family: 'OpenSans-Bold', sans-serif;
-  font-weight: 700;
-}
-
-%OpenSans-600 {
-  font-family: 'OpenSans-SemiBold', sans-serif;
-  font-weight: 600;
-}
-
-%OpenSans-400 {
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-weight: 400;
-}
-
-%Raleway-400 {
-  font-family: 'Raleway-Medium', sans-serif;
-  font-weight: 400;
-}
-
-%ORaleway-500 {
-  font-family: 'Raleway-Medium', sans-serif;
-  font-weight: 500;
-}
-
-$title:#fff;
-$def:#000;
-$text:#86878B;
-$bg:#EC7979;
-$hover:#AB4949;
+  %OpenSans-700 {
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-weight: 700;
+  }
+  
+  %OpenSans-600 {
+    font-family: 'OpenSans-SemiBold', sans-serif;
+    font-weight: 600;
+  }
+  
+  %OpenSans-400 {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-weight: 400;
+  }
+  
+  %Raleway-400 {
+    font-family: 'Raleway-Medium', sans-serif;
+    font-weight: 400;
+  }
+  
+  %ORaleway-500 {
+    font-family: 'Raleway-Medium', sans-serif;
+    font-weight: 500;
+  }
+  
+  $title:#fff;
+  $def:#000;
+  $text:#86878B;
+  $bg:#EC7979;
+  $hover:#AB4949;
+  %btn {
+    display: block;
+    border: 2px solid $title;
+    height: 58px;
+    max-width: 270px;
+    color: $title;
+    @extend%OpenSans-600;
+    line-height: 58px;
+    text-align: center;
+    border: none;
+    &:hover {
+      border: 2px solid $bg;
+      color: $bg;
+      color: $title;
+      border: none;
+    }
+    &:active {
+      background-color: $hover;
+      color: $title;
+    }
+  }
