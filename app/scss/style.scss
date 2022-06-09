@@ -243,3 +243,28 @@
       object-fit: contain;
     }
   }
+  
+  .awesome {
+    padding: 58px 0;
+    &__subtitle {
+      margin-bottom: 71px;
+    }
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__item {
+      max-width: 370px;
+      text-align: center;
+      svg {
+        margin-bottom: 78px;
+      }
+    }
+    &__item-title {
+      @extend%OpenSans-700;
+      font-size: 24px;
+      color: $def;
+      margin-bottom: 45px;
+    }
+  }
