@@ -139,3 +139,33 @@
     }
   }
 }
+
+.social {
+  background-color: #F8EFEF;
+  padding: 20px 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__content {
+    max-width: 470px;
+  }
+  &__content-title {
+    @extend%OpenSans-700;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 40px;
+  }
+  &__content-text {
+    color: $text;
+  }
+  &__icons {
+    a {
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
