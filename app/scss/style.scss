@@ -34,7 +34,7 @@
     }
   }
   
-  .header-contant {
+  .hero-contant {
     padding: 207px 0 185px;
     background-image: url(..//images/header-bg.jpg);
     background-repeat: no-repeat;
@@ -72,22 +72,7 @@
       margin-bottom: 42px;
     }
     &__info-btn {
-      // display: block;
-      // border: 2px solid $title;
-      // height: 58px;
-      // max-width: 270px;
-      // color: $title;
-      // @extend%OpenSans-600;
-      // line-height: 58px;
-      // text-align: center;
-      // &:hover {
-      //   border: 2px solid $bg;
-      //   color: $bg;
-      // }
-      // &:active {
-      //   background-color: $hover;
-      //   color: $title;
-      // }
+      @extend%btn;
     }
     &__form {
       max-width: 470px;
@@ -229,11 +214,13 @@
         margin-bottom: 0;
       }
     }
-    &__item-link {
+    &__item-btn {
       @extend%btn;
       background-color: $bg;
       &:hover {
         background-color: $hover;
+        color: $title;
+        border: none;
       }
       &:active {
         background-color: $bg;

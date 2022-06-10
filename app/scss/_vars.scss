@@ -30,19 +30,16 @@
   $hover:#AB4949;
   %btn {
     display: block;
+    background-color: transparent;
     border: 2px solid $title;
-    height: 58px;
-    max-width: 270px;
+    padding: 1em 5em;
     color: $title;
     @extend%OpenSans-600;
-    line-height: 58px;
     text-align: center;
-    border: none;
     &:hover {
       border: 2px solid $bg;
       color: $bg;
-      color: $title;
-      border: none;
+      cursor: pointer;
     }
     &:active {
       background-color: $hover;
