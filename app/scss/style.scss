@@ -137,6 +137,10 @@
                         color: $text;
                       }
                       &__icons {
+                        svg {
+                          width: 70px;
+                          height: 70px;
+                        }
                         a {
                           margin-right: 30px;
                           &:last-child {
@@ -403,5 +407,25 @@
                         display: block;
                         margin: 0 auto;
                         max-width: 370px;
+                      }
+                    }
+                    
+                    .footer {
+                      padding: 35px 0 27px;
+                      background-color: $def;
+                      text-align: center;
+                      &__social {
+                        margin-bottom: 27.8px;
+                        svg {
+                          width: 53.2px;
+                          height: 53.2px;
+                          margin-right: 32.8px;
+                        }
+                        svg:hover {
+                          opacity: 60%;
+                        }
+                      }
+                      &__copy {
+                        color: rgba(255, 255, 255, 0.5);
                       }
                     }
