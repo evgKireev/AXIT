@@ -3,15 +3,20 @@
   @import 'reset';
   @import 'global';
   @import 'libs';
-  .header-top {
-    padding: 0 170px 0 115px;
+  .header {
     background-color: $def;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__logo {
+      margin-left: 115.28px;
+    }
   }
   
   .menu {
+    margin-right: 170px;
     &__list {
       display: flex;
     }
@@ -67,22 +72,22 @@
       margin-bottom: 42px;
     }
     &__info-btn {
-      display: block;
-      border: 2px solid $title;
-      height: 58px;
-      max-width: 270px;
-      color: $title;
-      @extend%OpenSans-600;
-      line-height: 58px;
-      text-align: center;
-      &:hover {
-        border: 2px solid $bg;
-        color: $bg;
-      }
-      &:active {
-        background-color: $hover;
-        color: $title;
-      }
+      // display: block;
+      // border: 2px solid $title;
+      // height: 58px;
+      // max-width: 270px;
+      // color: $title;
+      // @extend%OpenSans-600;
+      // line-height: 58px;
+      // text-align: center;
+      // &:hover {
+      //   border: 2px solid $bg;
+      //   color: $bg;
+      // }
+      // &:active {
+      //   background-color: $hover;
+      //   color: $title;
+      // }
     }
     &__form {
       max-width: 470px;
@@ -92,6 +97,7 @@
   .form {
     background-color: $title;
     border-radius: 10px;
+    overflow: hidden;
     &__title {
       color: #333333;
       font-size: 24px;
@@ -99,6 +105,7 @@
       text-align: center;
       padding: 28px 0;
       margin-bottom: 40px;
+      text-transform: uppercase;
       span {
         color: $bg;
       }
@@ -109,6 +116,7 @@
       border: none;
       border-bottom: 1px solid#BDBDBD;
       padding: 5px 10px 15px;
+      outline: none;
       &::placeholder {
         color: #BDBDBD;
         @extend%OpenSans-400;
@@ -127,8 +135,6 @@
       height: 60px;
       @extend%OpenSans-600;
       font-size: 15px;
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 10px;
       cursor: pointer;
       padding: 0;
       &:hover {
@@ -259,6 +265,8 @@
       text-align: center;
       svg {
         margin-bottom: 78px;
+        width: 92px;
+        height: 92px;
       }
     }
     &__item-title {
