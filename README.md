@@ -1,4 +1,4 @@
-#AXIT PAGE 🌶
+# AXIT PAGE 🌶
 - 🏹 add section header;
 - 🏹 add section hero;
 - 🏹 sdd section social;
@@ -9,4 +9,4 @@
 - 🏹 add section reviews;
 - 🏹 add section contact;
 - 🏹 add section footer.
--[Нажми меня→→→→→](https://evgkireev.github.io/AXIT/)
+### [Нажми меня](https://evgkireev.github.io/AXIT/)
