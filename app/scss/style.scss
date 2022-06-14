@@ -31,16 +31,13 @@
                       &__list {
                         display: flex;
                       }
-                      &__list-link {
-                        text-align: center;
-                        line-height: 75px;
-                        height: 75px;
+                      &__list-item {
+                        height: 100%;
                         width: 113px;
-                        color: $title;
-                        font-size: 14px;
-                        @extend%OpenSans-600;
+                        text-align: center;
                         transition: all .5s;
                         &:hover {
+                          cursor: pointer;
                           background-color: $hover;
                           text-transform: uppercase;
                           transition: all .5s;
@@ -48,6 +45,13 @@
                         &:active {
                           background-color: $bg;
                         }
+                      }
+                      &__list-link {
+                        display: block;
+                        line-height: 75px;
+                        color: $title;
+                        font-size: 14px;
+                        @extend%OpenSans-600;
                       }
                     }
                     
