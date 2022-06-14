@@ -120,18 +120,18 @@
                           color: $bg;
                         }
                       }
+                      &__label {
+                        color: #BDBDBD;
+                        @extend%OpenSans-400;
+                        font-size: 14px;
+                      }
                       &__input {
                         width: 100%;
                         margin-bottom: 33px;
                         border: none;
                         border-bottom: 1px solid#BDBDBD;
-                        padding: 5px 10px 15px;
+                        padding: 4px 10px 4px;
                         outline: none;
-                        &::placeholder {
-                          color: #BDBDBD;
-                          @extend%OpenSans-400;
-                          font-size: 14px;
-                        }
                       }
                       &__input-inner {
                         padding: 0 50px;
