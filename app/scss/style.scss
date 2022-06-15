@@ -56,45 +56,42 @@
                     }
                     
                     .hero-contant {
-                      padding: 207px 0 185px;
+                      padding: 207px 170px 185px;
                       background-image: url(..//images/header-bg.jpg);
                       background-repeat: no-repeat;
                       background-attachment: scroll;
                       background-position: top center;
                       &__inner {
                         display: flex;
+                        gap: 30px;
                       }
                       &__info {
+                        flex-basis: 670px;
                         margin-top: 23px;
-                        margin-right: 30px;
                         svg {
                           width: 170px;
                           height: 55px;
                         }
                       }
+                      &__info-divider {
+                        width: 170px;
+                        margin: 0;
+                        color: $title;
+                      }
                       &__info-title {
-                        margin: 73px 0 106px;
-                        width: 670px;
+                        max-width: 670px;
+                        margin: 73px 0 54px;
                         font-size: 48px;
                         @extend%Raleway-500;
                         color: $title;
                         position: relative;
-                        &::after {
-                          content: '';
-                          position: absolute;
-                          width: 170px;
-                          height: 1px;
-                          background-color: $title;
-                          left: 0;
-                          bottom: -55px;
-                        }
                       }
                       &__info-text {
                         color: $title;
                         font-size: 18px;
                         max-width: 270px;
                         line-height: 21.13px;
-                        margin-bottom: 42px;
+                        margin: 42px 0;
                       }
                       &__info-btn {
                         @extend%btn;
@@ -204,7 +201,7 @@
                       }
                       &__inner {
                         display: flex;
-                        justify-content: space-between;
+                        gap: 30px;
                         border: 1px solid #C6CBCD;
                       }
                       &__wrapper {
@@ -235,12 +232,13 @@
                         max-width: 270px;
                       }
                       &__item-images {
-                        max-width: 470px;
+                        width: 470px;
                         overflow: hidden;
-                        height: 500px;
                       }
                       &__item-img {
-                        object-fit: contain;
+                        object-fit: cover;
+                        object-position: center;
+                        height: 100%;
                       }
                     }
                     
@@ -450,4 +448,4 @@
                       }
                     }
                     
-                    // @import 'media';
+                    @import 'media';

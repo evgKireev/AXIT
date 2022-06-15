@@ -1,127 +1,269 @@
-                        // @media(max-width:1175px) {
-                        //   .menu {
-                        //     margin-right: 20px;
-                        //   }
-                        //   .hero-contant {
-                        //     padding: 137px 0 131.89px;
-                        //     &__info {
-                        //       margin: 15px 36.36px 0 115.28px;
-                        //       svg {
-                        //         width: 115.28px;
-                        //         height: 41.17px;
-                        //       }
-                        //     }
-                        //     &__info-title {
-                        //       margin: 54px 0 73px;
-                        //       max-width: 454.36px;
-                        //       font-size: 36px;
-                        //     }
-                        //     &__info-text {
-                        //       font-size: 16px;
-                        //       line-height: 16.44px;
-                        //       margin-bottom: 31.32px;
-                        //     }
-                        //     &__info-btn {
-                        //       padding: 1em 3em;
-                        //     }
-                        //   }
-                        //   .form {
-                        //     &__title {
-                        //       font-size: 18px;
-                        //     }
-                        //   }
-                        // }
-                        // @media(max-width:950px) {
-                        //   .header {
-                        //     &__logo {
-                        //       margin-left: 85px;
-                        //     }
-                        //   }
-                        //   .hero-contant {
-                        //     padding: 105px 0 95px;
-                        //     &__info {
-                        //       margin: 0;
-                        //       margin-left: 70px;
-                        //     }
-                        //   }
-                        // }
-                        // @media(max-width:860px) {
-                        //   .header {
-                        //     &__logo {
-                        //       margin-left: 20px;
-                        //     }
-                        //   }
-                        //   .menu {
-                        //     margin-right: 35px;
-                        //     &__list {
-                        //       background-color: $def;
-                        //       position: absolute;
-                        //       left: 0;
-                        //       top: 78px;
-                        //       width: 100%;
-                        //       flex-direction: column;
-                        //       align-items: center;
-                        //       transform: translateY(-400px);
-                        //       transition: all .4s;
-                        //       &.menu__list--active {
-                        //         transform: translateY(0);
-                        //         transition: all .4s;
-                        //         height: 100vh;
-                        //       }
-                        //     }
-                        //     &__list-link {
-                        //       width: 100%;
-                        //       height: 67px;
-                        //     }
-                        //     &__btn {
-                        //       display: block;
-                        //       cursor: pointer;
-                        //       position: relative;
-                        //     }
-                        //     &__btn--active {
-                        //       path {
-                        //         transition: transform .3s;
-                        //       }
-                        //       .path-1 {
-                        //         transform: rotate(45deg);
-                        //         transform-origin: -1px 3px;
-                        //       }
-                        //       .path-2 {
-                        //         display: none;
-                        //       }
-                        //       .path-3 {
-                        //         transform: rotate(-45deg);
-                        //         transform-origin: 0px 13px;
-                        //       }
-                        //     }
-                        //   }
-                        //   .form {
-                        //     &__title {
-                        //       font-size: 14px;
-                        //     }
-                        //     &__input-inner {
-                        //       padding: 0 20px;
-                        //     }
-                        //   }
-                        //   .hero-contant {
-                        //     &__info {
-                        //       margin-left: 5px;
-                        //     }
-                        //   }
-                        // }
-                        // @media(max-width:750px) {
-                        //   .hero-contant {
-                        //     &__inner {
-                        //       flex-direction: column;
-                        //       align-items: center;
-                        //       text-align: center;
-                        //     }
-                        //   }
-                        // }
-                        // @media(max-width:568px) {
-                        //   .header {
-                        //     &__logo {
-                        //       margin-left: 20px;
-                        //     }
-                        //   }
-                        // }
+                                           @media(max-width:1425px) {
+                                             .hero-contant {
+                                               padding: 136.84px 20px 106px 115.28px;
+                                             }
+                                             .menu {
+                                               margin-right: 20px;
+                                             }
+                                           }
+                                           
+                                           @media(max-width:1170px) {
+                                             .social {
+                                               &__content {
+                                                 max-width: 407px;
+                                               }
+                                               &__icons {
+                                                 svg {
+                                                   width: 64px;
+                                                   height: 64px;
+                                                 }
+                                               }
+                                               a {
+                                                 margin-right: 20px;
+                                               }
+                                             }
+                                           }
+                                           
+                                           @media(max-width:1024px) {
+                                             .hero-contant {
+                                               &__info {
+                                                 svg {
+                                                   width: 115.28px;
+                                                   height: 41.17px;
+                                                 }
+                                               }
+                                               &__info-title {
+                                                 margin: 54px 0 73px;
+                                                 font-size: 36px;
+                                               }
+                                               &__info-text {
+                                                 font-size: 14px;
+                                                 line-height: 16.44px;
+                                                 margin-bottom: 31.32px;
+                                                 max-width: 183.1px;
+                                               }
+                                               &__info-btn {
+                                                 padding: 0.5em 3em;
+                                               }
+                                             }
+                                             .form {
+                                               &__title {
+                                                 font-size: 18px;
+                                               }
+                                             }
+                                             .social {
+                                               &__content-title {
+                                                 font-size: 18px;
+                                                 margin-bottom: 30px;
+                                               }
+                                               &__content-text {
+                                                 font-size: 14px;
+                                               }
+                                             }
+                                             .tabs {
+                                               padding: 50px 16px 50px;
+                                               &__list-item {
+                                                 padding: 10px 66.07px;
+                                               }
+                                               &__inner {
+                                                 gap: 25.89px;
+                                               }
+                                               &__item {
+                                                 padding: 35px 0 50px 85px;
+                                                 display: none;
+                                                 &.tabs__item--active {
+                                                   display: block;
+                                                 }
+                                               }
+                                               &__item-title {
+                                                 font-size: 24px;
+                                                 margin-bottom: 65px;
+                                               }
+                                               &__item-text {
+                                                 font-size: 14px;
+                                                 margin-bottom: 38px;
+                                               }
+                                               &__item-btn {
+                                                 margin-top: 0;
+                                               }
+                                             }
+                                           }
+                                           
+                                           @media(max-width:1005px) {
+                                             .social {
+                                               &__inner {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 text-align: center;
+                                               }
+                                               &__content-text {
+                                                 margin-bottom: 32px;
+                                               }
+                                             }
+                                           }
+                                           
+                                           @media(max-width:980px) {
+                                             .header {
+                                               &__logo {
+                                                 margin-left: 20px;
+                                               }
+                                             }
+                                             .hero-contant {
+                                               padding: 136.84px 20px 106px 20px;
+                                             }
+                                             .form {
+                                               &__title {
+                                                 font-size: 14px;
+                                               }
+                                               &__input-inner {
+                                                 padding: 0 20px;
+                                               }
+                                             }
+                                           }
+                                           
+                                           @media(max-width:880px) {
+                                             .header {
+                                               &__logo {
+                                                 padding: 16.77px 0;
+                                                 svg {
+                                                   width: 64.81px;
+                                                   height: 22.92px;
+                                                 }
+                                               }
+                                             }
+                                             .menu {
+                                               margin-right: 35px;
+                                               &__list {
+                                                 background-color: $def;
+                                                 position: absolute;
+                                                 left: 0;
+                                                 top: 57px;
+                                                 width: 100%;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 transform: translateY(-400px);
+                                                 transition: all .6s;
+                                                 z-index: 1;
+                                                 &.menu__list--active {
+                                                   transform: translateY(0);
+                                                   transition: all .6s;
+                                                   height: 100vh;
+                                                 }
+                                               }
+                                               &__list-item {
+                                                 width: 100%;
+                                                 height: 67px;
+                                               }
+                                               &__btn {
+                                                 display: block;
+                                                 cursor: pointer;
+                                                 position: relative;
+                                               }
+                                               &__btn--active {
+                                                 path {
+                                                   transition: transform .3s;
+                                                 }
+                                                 .path-1 {
+                                                   transform: rotate(45deg);
+                                                   transform-origin: -1px 3px;
+                                                 }
+                                                 .path-2 {
+                                                   display: none;
+                                                 }
+                                                 .path-3 {
+                                                   transform: rotate(-45deg);
+                                                   transform-origin: 0px 13px;
+                                                 }
+                                               }
+                                             }
+                                             .hero-contant {
+                                               padding: 84.12px 16px 50px;
+                                               &__info {
+                                                 flex-basis: 100%;
+                                                 margin: 0;
+                                               }
+                                               &__info-title {
+                                                 margin-top: 0;
+                                               }
+                                               &__inner {
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 text-align: center;
+                                                 gap: 56px;
+                                                 svg {
+                                                   display: none;
+                                                 }
+                                               }
+                                               &__info-title {
+                                                 margin-bottom: 43.88px;
+                                               }
+                                               &__info-divider {
+                                                 width: 134px;
+                                                 margin: 0 auto;
+                                               }
+                                               &__info-text {
+                                                 max-width: 100%;
+                                                 margin-bottom: 42px;
+                                               }
+                                               &__info-btn {
+                                                 margin: 0 auto;
+                                                 padding: 1em 5em;
+                                               }
+                                             }
+                                             .form {
+                                               &__title {
+                                                 margin-bottom: 0;
+                                               }
+                                               &__input-inner {
+                                                 text-align: start;
+                                               }
+                                             }
+                                             .tabs {
+                                               &__item-images {
+                                                 display: none;
+                                               }
+                                             }
+                                           }
+                                           
+                                           @media(max-width:605px) {
+                                             .social {
+                                               padding: 35px 13px 40px;
+                                               &__content-title {
+                                                 margin-bottom: 13px;
+                                               }
+                                               &__icons {
+                                                 svg {
+                                                   width: 26px;
+                                                   height: 26px;
+                                                 }
+                                                 a {
+                                                   margin-right: 14px;
+                                                 }
+                                               }
+                                             }
+                                             .tabs {
+                                               padding: 50px 16px 0;
+                                               &__item {
+                                                 padding: 35px 20.57px 29px 24.69px;
+                                                 text-align: center;
+                                               }
+                                               &__list-item {
+                                                 padding: 10px 32.43px;
+                                               }
+                                               &__item-title {
+                                                 font-size: 18px;
+                                               }
+                                               &__item-text {
+                                                 font-size: 13px;
+                                                 margin-bottom: 29px;
+                                                 br {
+                                                   display: none;
+                                                 }
+                                               }
+                                               &__item-btn {
+                                                 max-width: 242.4px;
+                                                 height: 50px;
+                                               }
+                                             }
+                                           }
