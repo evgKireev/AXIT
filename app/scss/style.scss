@@ -271,13 +271,14 @@
                   }
                   
                   .pricing {
+                    background-color: #F5F5F5;
                     padding: 110px 0 100px;
                     &__subtitle {
                       margin-bottom: 79px;
                     }
                     &__inner {
                       display: flex;
-                      justify-content: space-between;
+                      gap: 30px;
                       align-items: center;
                     }
                   }
@@ -286,6 +287,7 @@
                     width: 370px;
                     text-align: center;
                     transition: all .3s;
+                    background-color: $title;
                     &__title {
                       background-color: #333333;
                       color: $title;
