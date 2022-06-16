@@ -346,4 +346,13 @@
                                  transform: translateY(0);
                                }
                              }
+                             .download {
+                               padding: 43px 16px 58px;
+                               &__subtitle {
+                                 margin-bottom: 50px;
+                               }
+                               &__btn {
+                                 padding: 1em 5em;
+                               }
+                             }
                            }
