@@ -9,4 +9,5 @@
 - 🏹 add section reviews;
 - 🏹 add section contact;
 - 🏹 add section footer.
+- 🏹 add media page.
 ### [Нажми меня](https://evgkireev.github.io/AXIT/)
