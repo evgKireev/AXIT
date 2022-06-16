@@ -115,6 +115,17 @@
                                  gap: 20px;
                                }
                              }
+                             .contact {
+                               padding: 95px 16px 50px;
+                               &__subtitle {
+                                 margin-bottom: 72px;
+                               }
+                               .form {
+                                 &__inner {
+                                   gap: 20px;
+                                 }
+                               }
+                             }
                            }
                            
                            @media(max-width:1005px) {
@@ -250,6 +261,21 @@
                              .tabs {
                                &__item-images {
                                  display: none;
+                               }
+                             }
+                             .contact {
+                               padding: 45px 16px 40px;
+                               .form {
+                                 &__inner {
+                                   flex-direction: column;
+                                   margin-bottom: 50px;
+                                 }
+                                 &__input-inner {
+                                   max-width: 100%;
+                                 }
+                                 &__message {
+                                   flex-basis: 0;
+                                 }
                                }
                              }
                            }
