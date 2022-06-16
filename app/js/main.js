@@ -1,5 +1,20 @@
 $(function() {
 
+  $('.reviews__inner').slick({
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+
+    responsive: [{
+      breakpoint: 880,
+      settings: "unslick"
+    }, ],
+    mobileFirst: true,
+
+
+  });
+
   $('.menu__btn').on('click', function() {
     $('.menu__list').toggleClass('menu__list--active');
     $('.menu__btn').toggleClass('menu__btn--active');

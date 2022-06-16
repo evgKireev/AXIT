@@ -322,8 +322,34 @@
                                                  margin-bottom: 24px;
                                                }
                                                &__inner {
-                                                 display: flex;
-                                                 flex-direction: column;
+                                                 display: block;
+                                                 .slick-dots {
+                                                   display: flex;
+                                                   justify-content: center;
+                                                   align-items: center;
+                                                   margin-top: 25px;
+                                                   li {
+                                                     font-size: 0;
+                                                     margin-right: 50px;
+                                                     &:last-child {
+                                                       margin-right: 0;
+                                                     }
+                                                   }
+                                                   button {
+                                                     padding: 0;
+                                                     border: 1px solid $text;
+                                                     border-radius: 50%;
+                                                     width: 9.49px;
+                                                     height: 9.49px;
+                                                     background-color: transparent;
+                                                     cursor: pointer;
+                                                   }
+                                                   .slick-active {
+                                                     button {
+                                                       background-color: $text;
+                                                     }
+                                                   }
+                                                 }
                                                }
                                                .reviews-client {
                                                  width: 100%;
