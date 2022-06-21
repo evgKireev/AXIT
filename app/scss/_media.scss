@@ -131,7 +131,9 @@
                                                }
                                              }
                                              .pricing {
-                                               padding: 94px 16px 50px;
+                                               .wrapper {
+                                                 padding: 94px 16px 50px;
+                                               }
                                                &__subtitle {
                                                  margin-bottom: 49.74px;
                                                }
@@ -151,7 +153,9 @@
                                                }
                                              }
                                              .footer {
-                                               padding: 35px 16px 30px;
+                                               .wrapper {
+                                                 padding: 35px 16px 30px;
+                                               }
                                                &__copy {
                                                  font-size: 14px;
                                                }
@@ -327,7 +331,6 @@
                                                    display: flex;
                                                    justify-content: center;
                                                    align-items: center;
-                                                   margin-top: 25px;
                                                    li {
                                                      font-size: 0;
                                                      margin-right: 50px;
@@ -353,6 +356,7 @@
                                                }
                                                .reviews-client {
                                                  width: 100%;
+                                                 margin-bottom: 25px;
                                                  &__text {
                                                    margin-bottom: 62px;
                                                  }
@@ -361,8 +365,10 @@
                                            }
                                            
                                            @media(max-width:605px) {
-                                             .social {
+                                             .erapper {
                                                padding: 35px 13px 40px;
+                                             }
+                                             .social {
                                                &__content-title {
                                                  margin-bottom: 13px;
                                                }
@@ -415,8 +421,9 @@
                                                }
                                              }
                                              .pricing {
-                                               background-color: #F5F5F5;
-                                               padding: 45px 16px 26px;
+                                               .wrapper {
+                                                 padding: 45px 16px 26px;
+                                               }
                                                &__subtitle {
                                                  margin-bottom: 24px;
                                                }
@@ -463,7 +470,9 @@
                                                }
                                              }
                                              .download {
-                                               padding: 43px 16px 58px;
+                                               .wrapper {
+                                                 padding: 43px 16px 58px;
+                                               }
                                                &__subtitle {
                                                  margin-bottom: 50px;
                                                }

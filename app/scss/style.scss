@@ -4,7 +4,9 @@
                   @import 'global';
                   @import 'libs';
                   .header {
-                    background-color: $def;
+                    .wrapper {
+                      background-color: $def;
+                    }
                     &__inner {
                       display: flex;
                       justify-content: space-between;
@@ -139,8 +141,10 @@
                   }
                   
                   .social {
-                    background-color: #F8EFEF;
-                    padding: 20px 0;
+                    .wrapper {
+                      background-color: #F8EFEF;
+                      padding: 20px 0;
+                    }
                     &__inner {
                       display: flex;
                       justify-content: space-between;
@@ -271,8 +275,10 @@
                   }
                   
                   .pricing {
-                    background-color: #F5F5F5;
-                    padding: 110px 0 100px;
+                    .wrapper {
+                      background-color: #F5F5F5;
+                      padding: 110px 0 100px;
+                    }
                     &__subtitle {
                       margin-bottom: 79px;
                     }
@@ -370,12 +376,14 @@
                   }
                   
                   .download {
-                    padding: 110px 16px 50px;
-                    background: linear-gradient(rgba(0, 0, 0, 0.5));
-                    background-image: url(..//images/download-bg.jpg);
-                    background-position: center;
-                    background-attachment: fixed;
-                    text-align: center;
+                    .wrapper {
+                      padding: 110px 16px 50px;
+                      background: linear-gradient(rgba(0, 0, 0, 0.5));
+                      background-image: url(..//images/download-bg.jpg);
+                      background-position: center;
+                      background-attachment: fixed;
+                      text-align: center;
+                    }
                     &__title {
                       color: $title;
                       &::after {
@@ -434,9 +442,6 @@
                   }
                   
                   .footer {
-                    padding: 35px 0 27px;
-                    background-color: $def;
-                    text-align: center;
                     &__social {
                       margin-bottom: 27.8px;
                       svg {
@@ -452,6 +457,11 @@
                     }
                     &__copy {
                       color: rgba(255, 255, 255, 0.5);
+                    }
+                    .wrapper {
+                      padding: 35px 0 27px;
+                      background-color: $def;
+                      text-align: center;
                     }
                   }
                   
