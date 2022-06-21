@@ -1,33 +1,33 @@
 %OpenSans-700 {
-  font-family: 'OpenSans-Bold', sans-serif;
+  font-family: "OpenSans-Bold", sans-serif;
   font-weight: 700;
 }
 
 %OpenSans-600 {
-  font-family: 'OpenSans-SemiBold', sans-serif;
+  font-family: "OpenSans-SemiBold", sans-serif;
   font-weight: 600;
 }
 
 %OpenSans-400 {
-  font-family: 'OpenSans-Regular', sans-serif;
+  font-family: "OpenSans-Regular", sans-serif;
   font-weight: 400;
 }
 
 %Raleway-400 {
-  font-family: 'Raleway-Medium', sans-serif;
+  font-family: "Raleway-Medium", sans-serif;
   font-weight: 400;
 }
 
 %Raleway-500 {
-  font-family: 'Raleway-Medium', sans-serif;
+  font-family: "Raleway-Medium", sans-serif;
   font-weight: 500;
 }
 
-$title:#fff;
-$def:#000;
-$text:#86878B;
-$bg:#EC7979;
-$hover:#AB4949;
+$title: #fff;
+$def: #000;
+$text: #86878b;
+$bg: #ec7979;
+$hover: #ab4949;
 %btn {
   display: block;
   background-color: transparent;
@@ -36,12 +36,12 @@ $hover:#AB4949;
   color: $title;
   @extend%OpenSans-600;
   text-align: center;
-  transition: all .5s;
+  transition: all 0.5s;
   &:hover {
     border: 2px solid $bg;
     color: $bg;
     cursor: pointer;
-    transition: all .5s;
+    transition: all 0.5s;
   }
   &:active {
     background-color: $hover;
@@ -60,10 +60,10 @@ $hover:#AB4949;
   font-size: 15px;
   cursor: pointer;
   padding: 0;
-  transition: all .5s;
+  transition: all 0.5s;
   &:hover {
     background-color: $hover;
-    transition: all .5s;
+    transition: all 0.5s;
   }
   &:active {
     background-color: $bg;
